@@ -187,6 +187,11 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -227,6 +232,11 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -277,6 +287,11 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -380,6 +395,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -424,6 +443,11 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -466,6 +490,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -510,6 +538,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -552,6 +584,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -597,6 +633,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -644,6 +684,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -701,6 +745,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -745,6 +793,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                             @Override
                             public void onRaiseException(int code, String msg) {
                                 p.reject("" + code, msg);
+                            }
+                            @Override
+                            public void onPrintResult(int code, String msg) throws RemoteException {
+
                             }
                         });
                     } catch (Exception e) {
@@ -811,6 +863,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -862,6 +918,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
                         }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
+                        }
                     });
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -905,6 +965,10 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
@@ -1010,6 +1074,11 @@ public class SunmiInnerPrinterModule extends ReactContextBaseJavaModule {
                         @Override
                         public void onRaiseException(int code, String msg) {
                             p.reject("" + code, msg);
+                        }
+
+                        @Override
+                        public void onPrintResult(int code, String msg) throws RemoteException {
+
                         }
                     });
                 } catch (Exception e) {
